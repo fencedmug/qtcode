@@ -12,6 +12,14 @@ void DateTimeExample()
     qDebug() << "DateTime Example";
 
     // formats
+    // dd   - day
+    // MM   - month
+    // yyyy - year
+    // hh   - hour
+    // mm   - minute
+    // ss   - secs
+    // zz   - msecs
+    // ap   - am/pm
     QString dateFormat("yyyy-MM-dd");
     QString timeFormat("HH:mm:ss.zzz");
 
